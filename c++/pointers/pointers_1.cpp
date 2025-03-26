@@ -5,6 +5,15 @@ Declare an integer variable, create a pointer to it,
 and display both the value and address of the variable using the pointer.
 
 This exercise introduces basic pointer syntax, including declaration, assignment, and dereferencing.
+
+---
+
+Dichiarazione di base del puntatore e dereferenziazione
+
+Dichiarare una variabile intera, creare un puntatore ad essa,
+e visualizzare sia il valore che l'indirizzo della variabile utilizzando il puntatore.
+
+Questo esercizio introduce la sintassi di base del puntatore, inclusa la dichiarazione, l'assegnazione e la dereferenziazione.
 */
 
 #include <iostream>

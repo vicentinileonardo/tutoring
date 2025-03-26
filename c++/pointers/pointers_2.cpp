@@ -5,6 +5,15 @@ Create an integer array
 and use a pointer to iterate through the array, printing its elements.
 
 This demonstrates pointer arithmetic (ptr + i) and how pointers interact with arrays.
+
+---
+
+Aritmetica dei puntatori
+
+Creare un array di interi
+e utilizzare un puntatore per scorrere l'array, stampando i suoi elementi.
+
+Questo dimostra l'aritmetica dei puntatori (ptr + i) e come i puntatori interagiscono con gli array.
 */
 
 #include <iostream>

@@ -4,6 +4,14 @@ Swapping Two Numbers Using Pointers
 Write a function to swap two numbers using pointers.
 
 Illustrates how to pass pointers to functions and modify variables.
+
+---
+
+Invertire due numeri utilizzando i puntatori
+
+Scrivere una funzione per scambiare due numeri utilizzando i puntatori.
+
+Illustra come passare i puntatori alle funzioni e modificare le variabili.
 */
 
 #include <iostream>
