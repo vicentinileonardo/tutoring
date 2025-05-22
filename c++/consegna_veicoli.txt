@@ -1,0 +1,38 @@
+Esercitazione: Gestione di una Flotta di Veicoli
+
+Obiettivo
+
+L'obiettivo di questo esercizio è creare un programma in C++ che simuli la
+gestione di una flotta di veicoli, in cui è possibile tenere traccia di alcune
+informazioni importanti per ogni veicolo, come la targa, il modello, l&#39;anno di
+immatricolazione, i chilometri percorsi, e se il veicolo è in manutenzione o
+meno. Il programma dovrà permettere di aggiungere nuovi veicoli, aggiornare
+le informazioni, ordinare la flotta in base ai chilometri percorsi e altro ancora.
+Descrizione della struttura dei dati
+Utilizzeremo una struct per rappresentare ogni veicolo. La struct avrà i
+seguenti campi:
+struct Veicolo {
+string targa;
+string modello;
+int anno_immatricolazione;
+int chilometri;
+bool in_manutenzione;
+};
+
+Funzioni da implementare
+Il programma dovrà essere strutturato in modo che l&#39;utente possa interagire
+con un menu. Le seguenti funzioni devono essere implementate:
+1. Funzione aggiungiVeicolo per caricare n. veicoli
+2. Funzione stampaFlotta per visualizzare i dati di tutti i veicoli
+3. Funzione stampaVeicoliVecchi
+Questa funzione stampa i veicoli che sono stati immatricolati prima di un certo
+anno, dato in input dall&#39;utente.
+4. Funzione ordinaPerChilometraggio
+Questa funzione ordina la flotta di veicoli in ordine decrescente in base ai
+chilometri percorsi, in modo che i veicoli con il maggiore chilometraggio siano
+in cima alla lista.
+5. Funzione stampa veicoli immatricolati prima di una certa data e in
+manutenzione
+6. Funzione per calcolare la media dei Km percorsi dai veicoli immatricolati
+dopo il 2000
+7. Data in input la targa di un veicolo modificare lo stato a “in manutenzione”

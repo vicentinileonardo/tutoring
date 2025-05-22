@@ -1,0 +1,19 @@
+Gestione pneumatici automobile
+Scrivi un programma lava che simuli la gestione di un'automobile composta da quattro ruote.
+Ogni ruota ha una pressione (espressa in bar). L'automobile ha un proprietario, un numero di telaio e quattro ruote.
+Obiettivi:
+1. Creare le classi Ruota e Automobile:
+* ﻿﻿Ruota ha un attributo pressione e metodi per accedervi e modificarla.
+* ﻿﻿Automobile ha:
+* ﻿﻿un proprietario (String)
+* ﻿﻿un telaio (int)
+* ﻿﻿quattro oggetti di tipo Ruota.
+2. Nel metodo main:
+* ﻿﻿Chiedi all'utente di inserire il nome del proprietario, il numero di telaio e le pressioni per ciascuna delle quattro ruote.
+* ﻿﻿Crea un oggetto Automobile con i dati forniti.
+* ﻿﻿Stampa tutte le informazioni del veicolo (proprietario, telaio e pressioni delle ruote).
+* ﻿﻿Simula lo sgonfiaggio di una ruota (ad esempio, diminuisci la pressione di una ruota di 0.5 bar) e stampa di nuovo le informazioni aggiornate.
+Suggerimenti tecnici:
+* ﻿﻿Usa la classe Scanner per acquisire input da tastiera.
+* ﻿﻿Crea metodi getPressione() e setPressione() nella classe Ruota.
+* ﻿﻿Puoi usare un costruttore nella classe Automobile che accetta direttamente 4 oggetti Ruota

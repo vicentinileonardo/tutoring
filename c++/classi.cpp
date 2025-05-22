@@ -39,8 +39,7 @@ int main() {
     char sesso[NUM_STUDENTI];
     char religione[NUM_STUDENTI];
 
-    // indice per tenere traccia di quanti studenti sono stati inseriti a mano
-    int index = 0;
+    int index = 0; // indice per tenere traccia di quanti studenti sono stati inseriti a mano
     int scelta;
 
     srand(time(0));
